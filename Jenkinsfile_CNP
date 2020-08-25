@@ -1,0 +1,11 @@
+#!groovy
+
+@Library("Infrastructure")
+
+def type = "java"
+def product = "adas"
+def component = "sdasas"
+
+withPipeline(type, product, component) {
+    disableLegacyDeployment()
+}

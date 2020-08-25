@@ -1,0 +1,12 @@
+apiVersion: v2
+appVersion: "1.0"
+description: A Helm chart for adas-sdasas App
+name: adas-sdasas
+home: https://github.com/hmcts/adas-sdasas
+version: 0.0.1
+maintainers:
+  - name: HMCTS adas team
+dependencies:
+  - name: java
+    version: 3.0.2
+    repository: '@hmctspublic'
